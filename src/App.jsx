@@ -1,13 +1,20 @@
 import { useState } from 'react';
-import  checkDomainAge  from './utils/checkDomainAge'
+import UrlInput from './components/UrlInput'; 
+import DomainAgeChecker from './components/DomainAgeChekcer';
 
-checkDomainAge('google.com').then(resultado => console.log(resultado));
 
 function App() {
+  const [urlInput, setUrlInput] = useState('');
+  const handleUrlChange = (newUrl) => {
+    setUrlInput(newUrl)
+  };
 
   return (
     <div>
-     <p>Pishing URL Checker</p>
+     <p>Phishing URL Checker</p>
+     <UrlInput url={urlInput} onUrlChange={handleUrlChange}/>
+     <DomainAgeChecker url={urlInput}/>
+     
     </div>
   )
 }

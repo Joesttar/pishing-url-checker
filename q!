@@ -1,0 +1,29 @@
+[33mcommit 83ab8932c453946dfa5bdc03f91432b3930f454c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Joe Garcia <joegarcia12_al@hotmail.com>
+Date:   Thu Jul 16 17:33:46 2026 -0600
+
+    Se añadio un checador HTTPS en DomainAgeChekcer
+
+[33mcommit 0ebe39b52e699cc7945b92b6b11182c764268293[m
+Author: Joe Garcia <joegarcia12_al@hotmail.com>
+Date:   Wed Jul 15 22:08:23 2026 -0600
+
+    se añadio la funcion DomainAgeChecker que usa el componente RDAP API
+
+[33mcommit db8e87921a9ce408dcb5a9f5eb1b8f2d70222c57[m
+Author: Joe Garcia <joegarcia12_al@hotmail.com>
+Date:   Wed Jul 15 19:08:09 2026 -0600
+
+    agreamos la funcion extractDomain para limpiar el dominio de la URL
+
+[33mcommit 0feda14e2bf61487304554aef3e967f0978f57fc[m
+Author: Joe Garcia <joegarcia12_al@hotmail.com>
+Date:   Tue Jul 14 19:59:21 2026 -0600
+
+    añadimos una funcion checkDomainAge utilizando RDAP API
+
+[33mcommit a315c29c6f214aba52e41af3d839ef52feeb3c45[m
+Author: Joe Garcia <joegarcia12_al@hotmail.com>
+Date:   Tue Jul 14 19:57:39 2026 -0600
+
+    first commit
