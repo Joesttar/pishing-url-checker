@@ -48,7 +48,7 @@ La lógica de negocio (utils/) está separada de los componentes de presentació
 
 Correr el proyecto localmente
 
-bashgit clone https://github.com/Joesttar/password-auditor.git
+bashgit clone https://github.com/Joesttar/pishing-url-checker.git
 cd phishing-url-checker
 npm install
 npm run dev
